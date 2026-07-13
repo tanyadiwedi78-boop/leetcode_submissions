@@ -23,3 +23,41 @@ Example 2:
 Input: prices = [7,6,4,3,1]
 Output: 0
 Explanation: In this case, no transactions are done and the max profit = 0.
+
+
+## 💡 Approach
+
+- Traverse the array only once.
+- Keep track of the minimum stock price seen so far.
+- For each price, calculate the profit if sold today.
+- Update the maximum profit whenever a larger profit is found.
+
+---
+
+## ⏱️ Complexity Analysis
+
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(1)
+
+---
+
+## 🧠 Key Idea
+
+The optimal strategy is to maintain the lowest buying price encountered so far and compute the maximum possible profit while traversing the array.
+
+---
+
+## 📌 Concepts Used
+
+- Array
+- Greedy
+- One Pass Traversal
+- Minimum Tracking
+
+---
+
+## 🎯 Interview Takeaways
+
+- Efficient one-pass solution.
+- No extra data structures required.
+- Frequently asked FAANG interview problem.
